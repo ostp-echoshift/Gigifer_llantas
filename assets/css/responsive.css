@@ -1,0 +1,74 @@
+/* ============================================================
+   responsive.css — Media Queries
+   Llantas Gifer | OSTP: Fernando Guzmán
+   ============================================================ */
+
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .marcas-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-burger {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --padding-x: 1rem;
+    --space-section: 3rem;
+  }
+  .btn {
+    width: 100%;
+  }
+  .hero-title {
+    font-size: 2rem;
+  }
+}
+
+/* ── ACCESIBILIDAD ────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── PRINT ────────────────────────────────────────────────── */
+@media print {
+  .hero__tire,
+  .hero__scroll,
+  .wa-float,
+  .nav-burger {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}

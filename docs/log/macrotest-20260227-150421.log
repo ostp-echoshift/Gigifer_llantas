@@ -1,0 +1,103 @@
+[15:04:21] MacroTest v2.0 — C:\Proyectos\GIFER_llantas — 2026-02-27 15:04:21
+[15:04:21] 
+[15:04:21] === 1 · ESTRUCTURA DE CARPETAS ===
+[15:04:21] [OK]  assets\css
+[15:04:21] [OK]  assets\js
+[15:04:21] [OK]  assets\img\marcas
+[15:04:21] [OK]  assets\img\taller
+[15:04:21] [OK]  assets\img\compras
+[15:04:21] [OK]  assets\img\hero
+[15:04:21] [OK]  assets\img\icons
+[15:04:21] [OK]  components
+[15:04:21] [OK]  data\productos
+[15:04:21] [OK]  data\marcas
+[15:04:21] [OK]  data\servicios
+[15:04:21] [OK]  pages\llantas
+[15:04:21] [OK]  pages\marcas
+[15:04:21] [OK]  pages\servicios
+[15:04:21] [OK]  pages\nosotros
+[15:04:21] [OK]  pages\contacto
+[15:04:21] [OK]  pages\blog
+[15:04:21] [OK]  docs\brief
+[15:04:21] [OK]  docs\log
+[15:04:21] [OK]  scripts
+[15:04:21] 
+[15:04:21] === 2 · ARCHIVOS CLAVE ===
+[15:04:21] [OK]  index.html  (5750 b)
+[15:04:21] [OK]  README.md  (6996 b)
+[15:04:21] [OK]  .gitignore  (1896 b)
+[15:04:21] [OK]  assets\css\variables.css  (1967 b)
+[15:04:21] [OK]  assets\css\reset.css  (4287 b)
+[15:04:21] [OK]  assets\css\main.css  (9160 b)
+[15:04:21] [OK]  assets\css\components.css  (11321 b)
+[15:04:21] [OK]  assets\css\animations.css  (3505 b)
+[15:04:21] [OK]  assets\css\pages.css  (36498 b)
+[15:04:21] [OK]  assets\css\responsive.css  (1681 b)
+[15:04:21] [OK]  assets\js\main.js  (4238 b)
+[15:04:21] [OK]  assets\js\buscador.js  (2925 b)
+[15:04:21] [OK]  assets\js\carrito.js  (6926 b)
+[15:04:21] [OK]  assets\js\nav.js  (870 b)
+[15:04:21] [OK]  assets\js\whatsapp.js  (1323 b)
+[15:04:21] [OK]  assets\js\animations.js  (1346 b)
+[15:04:21] [OK]  components\nav.html  (1947 b)
+[15:04:21] [OK]  components\hero.html  (3425 b)
+[15:04:21] [OK]  components\buscador.html  (2222 b)
+[15:04:22] [OK]  components\footer.html  (4156 b)
+[15:04:22] [OK]  components\wa-float.html  (1740 b)
+[15:04:22] [OK]  data\productos\llantas.json  (1923 b)
+[15:04:22] [OK]  data\marcas\marcas.json  (1068 b)
+[15:04:22] [OK]  data\servicios\servicios.json  (816 b)
+[15:04:22] [OK]  pages\llantas\index.html  (4414 b)
+[15:04:22] [OK]  pages\marcas\index.html  (6885 b)
+[15:04:22] [OK]  pages\servicios\index.html  (6736 b)
+[15:04:22] [OK]  pages\nosotros\index.html  (7652 b)
+[15:04:22] [OK]  pages\contacto\index.html  (7480 b)
+[15:04:22] [OK]  pages\blog\index.html  (8498 b)
+[15:04:22] [OK]  assets\img\icons\favicon.ico  (370070 b)
+[15:04:22] [OK]  assets\img\icons\logo-gifer.png  (25601 b)
+[15:04:22] [OK]  assets\img\hero\brand01.png  (26422 b)
+[15:04:22] [OK]  scripts\DirMainRoot.ps1  (8273 b)
+[15:04:22] [OK]  scripts\ConvertToWebP.ps1  (4509 b)
+[15:04:22] [OK]  scripts\ConvertToWebP-NET.ps1  (6903 b)
+[15:04:22] [OK]  scripts\InstallWebP.ps1  (2758 b)
+[15:04:22] [OK]  scripts\SaveLog.ps1  (7934 b)
+[15:04:22] 
+[15:04:22] === 3 · VALIDACIÓN JSON ===
+[15:04:22] [OK]  JSON válido: llantas.json
+[15:04:22] [WRN]   → Sin productos
+[15:04:22] [OK]    → Todos los campos requeridos presentes
+[15:04:22] [OK]  JSON válido: marcas.json → 10 marcas
+[15:04:22] [OK]  JSON válido: servicios.json → 5 servicios
+[15:04:22] 
+[15:04:22] === 4 · IMÁGENES ===
+[15:04:22] [WRN] bf.jpg existe pero falta bf.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] bridgestone.jpg existe pero falta bridgestone.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] coopertires.jpg existe pero falta coopertires.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] firestone.jpg existe pero falta firestone.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] hankook.jpg existe pero falta hankook.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] kumo.jpg existe pero falta kumo.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] marshall.jpg existe pero falta marshall.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] michelin.jpg existe pero falta michelin.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] pirelli.jpg existe pero falta pirelli.webp  ← pendiente ConvertToWebP
+[15:04:22] [WRN] roadstone.jpg existe pero falta roadstone.webp  ← pendiente ConvertToWebP
+[15:04:22] [OK]  fig01.png + fig01.webp
+[15:04:22] [OK]  fig02.png + fig02.webp
+[15:04:22] [OK]  fig03.png + fig03.webp
+[15:04:22] [OK]  fig04.png + fig04.webp
+[15:04:22] [OK]  fig05.png + fig05.webp
+[15:04:22] [OK]  compras\pasos-de-compra1.png
+[15:04:22] [OK]  compras\pasos-de-compra-2.png
+[15:04:22] [OK]  compras\pasos-de-compra-3.png
+[15:04:22] [OK]  hero\brand.png
+[15:04:22] [OK]  hero\brand01.png
+[15:04:22] [OK]  icons\favicon.ico
+[15:04:22] [OK]  icons\logo-gifer.png
+[15:04:22] 
+[15:04:22] === 5 · NÚMERO WHATSAPP ===
+[15:04:23] [OK]  Número WA correcto (523329062078) en 11 archivos
+[15:04:23] 
+[15:04:23] === 6 · RUTAS DE COMPONENTES EN HTML ===
+[15:04:23] [OK]  Rutas de componentes verificadas
+[15:04:23] 
+[15:04:23] RESUMEN — OK:76 WRN:11 ERR:0
+[15:04:23] Fin — 2026-02-27 15:04:23

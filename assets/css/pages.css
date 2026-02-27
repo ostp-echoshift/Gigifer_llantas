@@ -1,0 +1,537 @@
+/* ============================================================
+   pages.css — Estilos por Página
+   Llantas Gifer | OSTP: Fernando Guzmán
+   ============================================================ */
+
+/* ── PAGE HEADER ──────────────────────────────────────────── */
+.page-header {
+  padding: calc(var(--nav-height) + var(--space-8)) 0 var(--space-8);
+  background: var(--color-dark);
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  margin-bottom: var(--space-4);
+}
+
+.breadcrumb a {
+  color: var(--color-yellow);
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-size: var(--font-size-hero);
+  margin: 0;
+}
+
+.page-sub {
+  color: var(--color-gray);
+  max-width: var(--max-width-text);
+  margin: var(--space-2) auto 0;
+}
+
+/* ── BLOG ─────────────────────────────────────────────────── */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+.blog-card {
+  background: var(--color-dark);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.blog-card-img {
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a1a1a;
+  font-size: 3rem;
+}
+
+.blog-card-body {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.blog-card-tag {
+  font-size: var(--font-size-xxs);
+  text-transform: uppercase;
+  color: var(--color-yellow);
+}
+
+.blog-card-body h3 {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  margin: 0;
+}
+
+.blog-card-body p {
+  color: var(--color-gray);
+  font-size: var(--font-size-sm);
+  flex-grow: 1;
+}
+
+/* ── CONTACTO ─────────────────────────────────────────────── */
+.contacto-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+}
+
+.ci-card {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: var(--color-dark);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-3);
+}
+
+.ci-icon {
+  font-size: 1.5rem;
+}
+
+.ci-card h3 {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  margin: 0 0 var(--space-1);
+}
+
+.contact-link {
+  color: var(--color-yellow);
+  font-weight: 700;
+  display: block;
+  margin: var(--space-1) 0;
+}
+
+.contact-hours {
+  font-size: var(--font-size-xs);
+  color: var(--color-gray);
+}
+
+.wa-rapidos {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  background: var(--color-dark);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.wa-rapidos-title {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  margin: 0 0 var(--space-3);
+}
+
+.wa-quick-btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  background: var(--color-black);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-white);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--space-2);
+  transition: all var(--ease-normal);
+}
+
+.wa-quick-btn:hover {
+  background: var(--color-green);
+  border-color: var(--color-green);
+}
+
+.contacto-mapa {
+  position: sticky;
+  top: calc(var(--nav-height) + var(--space-4));
+}
+
+.mapa-header {
+  text-align: center;
+  margin-bottom: var(--space-4);
+}
+
+.mapa-actions {
+  display: flex;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.mapa-btn {
+  flex: 1;
+  padding: 0.5rem;
+  background: var(--color-dark);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-white);
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+
+.mapa-btn.wa {
+  background: var(--color-green);
+  border-color: var(--color-green);
+}
+
+/* ── MARCAS PAGE ──────────────────────────────────────────── */
+.marcas-tier-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.tier-badge {
+  padding: 0.25rem 0.75rem;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  text-transform: uppercase;
+  background: rgba(255, 208, 0, 0.15);
+  border: 1px solid rgba(255, 208, 0, 0.3);
+  color: var(--color-yellow);
+}
+
+/* ── NOSOTROS ─────────────────────────────────────────────── */
+.nos-chip {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: rgba(255, 208, 0, 0.15);
+  border: 1px solid rgba(255, 208, 0, 0.3);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--color-yellow);
+  text-transform: uppercase;
+  margin-bottom: var(--space-3);
+}
+
+.nosotros-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: var(--color-dark);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.ns-stat {
+  text-align: center;
+}
+
+.ns-stat strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--font-size-2xl);
+  color: var(--color-yellow);
+  line-height: 1;
+}
+
+.ns-stat .stat-label {
+  display: block;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray);
+  text-transform: uppercase;
+  margin-top: var(--space-1);
+}
+
+.taller-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-2);
+}
+
+.taller-img {
+  aspect-ratio: 4/3;
+  background: var(--color-black);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.taller-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   ESTILOS TIPO HOGARCONFORT
+   ════════════════════════════════════════════════════════════════ */
+
+/* Header */
+.site-header {
+  background: var(--color-black);
+  border-bottom: 2px solid var(--color-yellow);
+  padding: var(--space-4) 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.header-logo {
+  height: 60px;
+  width: auto;
+}
+
+.header-tagline h1 {
+  font-family: var(--font-display);
+  font-size: var(--font-size-xl);
+  color: var(--color-yellow);
+  margin: 0;
+}
+
+.header-tagline p {
+  color: var(--color-gray);
+  font-size: var(--font-size-sm);
+  margin: 0;
+}
+
+.header-badges {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.badge-header {
+  background: var(--color-dark);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+/* Stats Section */
+.stats-section {
+  background: var(--color-yellow);
+  padding: var(--space-6) 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.stat-number {
+  font-family: var(--font-display);
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+}
+
+.stat-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-black) 100%);
+  padding: var(--space-16) 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: var(--font-size-hero);
+  color: var(--color-white);
+  margin: 0 0 var(--space-4);
+}
+
+.hero-subtitle {
+  color: var(--color-gray);
+  font-size: var(--font-size-lg);
+  margin: 0 0 var(--space-8);
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Categorías */
+.categoria-section {
+  padding: var(--space-section) 0;
+}
+
+.categoria-header {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.categoria-title {
+  font-family: var(--font-display);
+  font-size: var(--font-size-section);
+  color: var(--color-white);
+  margin: 0 0 var(--space-2);
+}
+
+.categoria-sub {
+  color: var(--color-gray);
+  font-size: var(--font-size-base);
+}
+
+/* Productos Grid */
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-4);
+}
+
+/* Servicios Grid */
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-6);
+}
+
+/* Footer */
+.site-footer {
+  background: var(--color-black);
+  border-top: 2px solid var(--color-yellow);
+  padding: var(--space-section) 0 var(--space-4);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-8);
+  margin-bottom: var(--space-8);
+}
+
+.footer-col h3 {
+  font-family: var(--font-condensed);
+  font-size: var(--font-size-lg);
+  color: var(--color-yellow);
+  margin: 0 0 var(--space-4);
+}
+
+.footer-col p,
+.footer-col ul {
+  color: var(--color-gray);
+  font-size: var(--font-size-sm);
+  line-height: 1.8;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col a {
+  color: var(--color-white);
+  transition: color var(--ease-fast);
+}
+
+.footer-col a:hover {
+  color: var(--color-yellow);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+  text-align: center;
+  color: var(--color-gray);
+  font-size: var(--font-size-sm);
+}
+
+/* Loading & Error States */
+.loading-placeholder {
+  text-align: center;
+  padding: var(--space-8);
+  color: var(--color-gray);
+  font-size: var(--font-size-lg);
+}
+
+.error-msg {
+  text-align: center;
+  padding: var(--space-8);
+  color: var(--color-error);
+  background: rgba(255, 68, 68, 0.1);
+  border: 1px solid var(--color-error);
+  border-radius: var(--radius-md);
+}
+
+.marca-fallback,
+.producto-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-display);
+  font-size: var(--font-size-2xl);
+  color: var(--color-yellow);
+  background: var(--color-dark);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-brand {
+    flex-direction: column;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .productos-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-actions .btn {
+    width: 100%;
+  }
+  .productos-grid {
+    grid-template-columns: 1fr;
+  }
+}

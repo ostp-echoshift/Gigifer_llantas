@@ -1,0 +1,56 @@
+[2026-02-27 15:58:35] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+[2026-02-27 16:00:57] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: kumo.jpg → kumhotires.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: marshall.jpg → marshal.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: michelin.jpg → michelline.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: bridgestone.jpg → bridgestone.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: roadstone.jpg → roadstone.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: coopertires.jpg → coopertires.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: firestone.jpg → firestone.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: hankook.jpg → hankook.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: pirelli.jpg → pirelli.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS]   → Reemplazado: bf.jpg → bf.png (1 veces)
+[2026-02-27 16:00:57] [SUCCESS] ✓ Guardados 10 cambios en C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+[2026-02-27 16:00:57] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\productos\llantas.json
+[2026-02-27 16:00:57] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\data\productos\llantas.json
+[2026-02-27 16:00:57] [INFO] Procesando: C:\Proyectos\GIFER_llantas\index.html
+[2026-02-27 16:00:57] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\index.html
+[2026-02-27 16:00:57] [INFO] Procesando: C:\Proyectos\GIFER_llantas\pages\marcas\index.html
+[2026-02-27 16:00:57] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\pages\marcas\index.html
+[2026-02-27 16:00:57] [INFO] Procesando: C:\Proyectos\GIFER_llantas\components\nav.html
+[2026-02-27 16:00:57] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\components\nav.html
+[2026-02-27 16:00:57] [INFO] Procesando: C:\Proyectos\GIFER_llantas\components\footer.html
+[2026-02-27 16:00:57] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\components\footer.html
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: kumhotires.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: marshal.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: michelline.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: bridgestone.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: roadstone.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: coopertires.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: firestone.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: hankook.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: pirelli.png
+[2026-02-27 16:00:57] [SUCCESS] ✓ Existe: bf.png
+[2026-02-27 16:03:08] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+[2026-02-27 16:03:08] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+[2026-02-27 16:03:08] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\productos\llantas.json
+[2026-02-27 16:03:08] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\data\productos\llantas.json
+[2026-02-27 16:03:08] [INFO] Procesando: C:\Proyectos\GIFER_llantas\index.html
+[2026-02-27 16:03:08] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\index.html
+[2026-02-27 16:03:08] [INFO] Procesando: C:\Proyectos\GIFER_llantas\pages\marcas\index.html
+[2026-02-27 16:03:08] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\pages\marcas\index.html
+[2026-02-27 16:03:08] [INFO] Procesando: C:\Proyectos\GIFER_llantas\components\nav.html
+[2026-02-27 16:03:08] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\components\nav.html
+[2026-02-27 16:03:08] [INFO] Procesando: C:\Proyectos\GIFER_llantas\components\footer.html
+[2026-02-27 16:03:08] [INFO] → Sin cambios necesarios en C:\Proyectos\GIFER_llantas\components\footer.html
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: kumhotires.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: marshal.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: michelline.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: bridgestone.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: roadstone.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: coopertires.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: firestone.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: hankook.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: pirelli.png
+[2026-02-27 16:03:08] [SUCCESS] ✓ Existe: bf.png
+[2026-02-27 16:03:08] [INFO] CorregirRutasMarcas finalizado — Cambios: 0, Errores: 0

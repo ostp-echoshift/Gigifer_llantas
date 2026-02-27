@@ -1,0 +1,146 @@
+/* ============================================================
+   animations.css — Keyframes & Animaciones
+   Llantas Gifer | OSTP: Fernando Guzmán
+   ============================================================ */
+
+/* ── KEYFRAMES ────────────────────────────────────────────── */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulse-wa {
+  0%, 100% {
+    box-shadow: var(--shadow-wa);
+  }
+  50% {
+    box-shadow: var(--shadow-wa-hover);
+  }
+}
+
+@keyframes tireSpin {
+  from {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+@keyframes bounce-y {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
+/* ── MARQUEE ──────────────────────────────────────────────── */
+.marquee {
+  overflow: hidden;
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-yellow);
+}
+
+.marquee__track {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee__item {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  padding: 0 var(--space-8);
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  white-space: nowrap;
+  color: var(--color-black);
+}
+
+/* ── WHATSAPP TOOLTIP ─────────────────────────────────────── */
+.wa-tooltip {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: var(--color-dark);
+  color: var(--color-white);
+  font-size: var(--font-size-xs);
+  border-radius: var(--radius-md);
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--ease-normal), transform var(--ease-normal);
+  pointer-events: none;
+}
+
+.wa-tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  right: 1rem;
+  border: 6px solid transparent;
+  border-top-color: var(--color-dark);
+}
+
+.wa-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.wa-tooltip strong {
+  color: var(--color-yellow);
+}
+
+/* ── BADGE ────────────────────────────────────────────────── */
+.wa-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  background: var(--color-green);
+  color: #fff;
+  font-size: 0.625rem;
+  font-weight: 700;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wa-badge.hidden {
+  display: none;
+}
+
+/* ── REDUCED MOTION ───────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track,
+  .wa-float,
+  .hero-chip-dot,
+  .cursor,
+  .cursor-ring {
+    animation: none !important;
+  }
+}

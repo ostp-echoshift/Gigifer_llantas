@@ -1,0 +1,47 @@
+<!-- ════════════════════════════════════
+     GIFER Llantas · nav.html
+     Componente: Navbar principal
+     ChavalowRider OSTP · echoShift
+════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <a href="/index.html" class="nav-logo-link">
+    <img src="/assets/img/icons/logo-gifer.png" alt="GIFER Llantas"
+         class="nav-logo"
+         onerror="this.onerror=null;this.style.display='none';document.getElementById('nav-txt').style.display='block'">
+    <span id="nav-txt" class="nav-logo-txt" style="display:none;">
+      LLANTAS <em>GIFER</em>
+    </span>
+  </a>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="/index.html">Inicio</a></li>
+    <li><a href="/pages/llantas/">Catálogo</a></li>
+    <li><a href="/pages/marcas/">Marcas</a></li>
+    <li><a href="/pages/servicios/">Servicios</a></li>
+    <li><a href="/pages/nosotros/">Nosotros</a></li>
+    <li><a href="/pages/contacto/">Contacto</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <a href="tel:+523329062078" class="nav-tel">📞 33 2906 2078</a>
+    <button class="nav-burger" id="nav-burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Menú móvil overlay -->
+<div class="nav-mobile" id="nav-mobile">
+  <ul>
+    <li><a href="/index.html">Inicio</a></li>
+    <li><a href="/pages/llantas/">Catálogo</a></li>
+    <li><a href="/pages/marcas/">Marcas</a></li>
+    <li><a href="/pages/servicios/">Servicios</a></li>
+    <li><a href="/pages/nosotros/">Nosotros</a></li>
+    <li><a href="/pages/contacto/">Contacto</a></li>
+  </ul>
+  <a href="https://wa.me/523329062078?text=Hola%20GIFER!%20Quiero%20informes." 
+     class="nav-mobile-wa" target="_blank">
+    💬 Escribir por WhatsApp
+  </a>
+</div>

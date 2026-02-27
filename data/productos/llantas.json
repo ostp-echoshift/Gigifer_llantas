@@ -1,0 +1,10 @@
+{
+  "productos": [
+    { "id": "marshal-mh15-185-60-r14", "marca": "Marshal", "modelo": "MH15", "medida": "185/60 R14", "ancho": 185, "perfil": 60, "rin": 14, "indice": "82H", "precio": 1209, "stock": true, "img": "assets/img/compras/pasos-de-compra1.png", "badge": "top", "incluye": ["instalacion", "balanceo", "valvula"] },
+    { "id": "hankook-kinergy-h436-205-55-r17", "marca": "Hankook", "modelo": "Kinergy H436", "medida": "205/55 R17", "ancho": 205, "perfil": 55, "rin": 17, "indice": "91H", "precio": 1990, "stock": true, "img": "assets/img/compras/pasos-de-compra-2.jpg", "badge": "oferta", "incluye": ["instalacion", "balanceo", "valvula"] },
+    { "id": "cooper-evolution-sport-215-45-r17", "marca": "Cooper", "modelo": "Evolution Sport", "medida": "215/45 R17", "ancho": 215, "perfil": 45, "rin": 17, "indice": "91H", "precio": 1970, "stock": true, "img": "assets/img/compras/pasos-de-compra-3.jpg", "badge": "nuevo", "incluye": ["instalacion", "balanceo", "valvula"] },
+    { "id": "roadstone-eurovis-hp02-185-70-r14", "marca": "Roadstone", "modelo": "Eurovis HP02", "medida": "185/70 R14", "ancho": 185, "perfil": 70, "rin": 14, "indice": "", "precio": 1150, "stock": true, "img": "assets/img/compras/pasos-de-compra1.png", "badge": "top", "incluye": ["instalacion", "balanceo", "valvula"] },
+    { "id": "marshal-mh15-195-65-r15", "marca": "Marshal", "modelo": "MH15", "medida": "195/65 R15", "ancho": 195, "perfil": 65, "rin": 15, "indice": "91H", "precio": 1270, "stock": true, "img": "assets/img/compras/pasos-de-compra-2.jpg", "badge": "top", "incluye": ["instalacion", "balanceo", "valvula"] },
+    { "id": "toyo-pxst3-275-45-r20", "marca": "Toyo", "modelo": "PXST3", "medida": "275/45 R20", "ancho": 275, "perfil": 45, "rin": 20, "indice": "", "precio": 3342, "stock": true, "img": "assets/img/compras/pasos-de-compra-3.jpg", "badge": "oferta", "incluye": ["instalacion", "balanceo", "valvula"] }
+  ]
+}

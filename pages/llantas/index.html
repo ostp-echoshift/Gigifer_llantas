@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo completo de llantas en Guadalajara. Multimarcas con instalación GRATIS.">
+    <title>Catálogo de Llantas | GIFER Llantas</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/img/icons/favicon.ico">
+    <link rel="stylesheet" href="../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/components.css">
+    <link rel="stylesheet" href="../../assets/css/pages.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../assets/css/animations.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+    <div id="nav-container"></div>
+
+    <main id="page-content" class="page-llantas">
+        
+        <!-- Header de página -->
+        <section class="page-header section section--dark">
+            <div class="container">
+                <div class="section-label">Catálogo</div>
+                <h1 class="section-title">Todas las Llantas</h1>
+                <p class="section-sub">Filtra por marca, medida o precio. Instalación GRATIS incluida.</p>
+            </div>
+        </section>
+
+        <!-- Buscador avanzado -->
+        <section class="section">
+            <div class="container">
+                <div id="buscador-container"></div>
+            </div>
+        </section>
+
+        <!-- Filtros rápidos -->
+        <section class="section section--dark">
+            <div class="container">
+                <div class="filtros-rapidos">
+                    <button class="filtro-chip active" data-filter="all">Todas</button>
+                    <button class="filtro-chip" data-filter="turismo">🚗 Turismo</button>
+                    <button class="filtro-chip" data-filter="suv">🚙 SUV</button>
+                    <button class="filtro-chip" data-filter="deportivo">🏎️ Deportivo</button>
+                    <button class="filtro-chip" data-filter="moto">🏍️ Moto</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grid de productos -->
+        <section class="section">
+            <div class="container">
+                <div id="catalogo-grid" class="grid grid-3 grid-bordered">
+                    <!-- Carga dinámica desde llantas.json -->
+                </div>
+                <div id="catalogo-empty" class="text-center" style="display:none;">
+                    <p class="section-sub">No se encontraron llantas con esos criterios.</p>
+                    <button class="btn btn--ghost" id="btn-reset-filtros">✕ Limpiar filtros</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer-container"></div>
+    <div id="whatsapp-container"></div>
+
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/nav.js"></script>
+    <script src="../../assets/js/buscador.js"></script>
+    <script src="../../assets/js/whatsapp.js"></script>
+    <script src="../../assets/js/animations.js"></script>
+    
+    <!-- Script específico para catálogo -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Cargar componentes
+        loadComponent('nav-container', '../../components/nav/nav.html');
+        loadComponent('buscador-container', '../../components/buscador/buscador.html');
+        loadComponent('footer-container', '../../components/footer/footer.html');
+        loadComponent('whatsapp-container', '../../components/wa-float.html');
+        
+        // Cargar catálogo completo
+        loadCatalogo('../../data/productos/llantas.json', 'catalogo-grid');
+        
+        // Filtros rápidos
+        document.querySelectorAll('.filtro-chip').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filtro-chip').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                filtrarCatalogo(this.dataset.filter);
+            });
+        });
+    });
+    </script>
+</body>
+</html>

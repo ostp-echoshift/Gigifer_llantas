@@ -1,0 +1,36 @@
+PS C:\Proyectos\GIFER_llantas\scripts> dir
+
+    Directory: C:\Proyectos\GIFER_llantas\scripts
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---      27/feb/2026 09:47 a. m.           6903 ConvertToWebP-NET.ps1
+-a---      27/feb/2026 09:48 a. m.           4509 ConvertToWebP.ps1
+-a---      27/feb/2026 09:47 a. m.           8273 DirMainRoot.ps1
+-a---      27/feb/2026 09:48 a. m.           2758 InstallWebP.ps1
+-a---      27/feb/2026 09:49 a. m.           7934 SaveLog.ps1
+-a---      27/feb/2026 10:41 a. m.           7271 UniformarImagenesPNG.ps1
+
+PS C:\Proyectos\GIFER_llantas\scripts> .\UniformarImagenesPNG.ps1
+[2026-02-27 10:41:41] [INFO] ========================================
+[2026-02-27 10:41:41] [INFO]   GIFER Llantas · Uniformar Imágenes PNG
+[2026-02-27 10:41:41] [INFO]   Inicio: 2026-02-27 10:41:41
+[2026-02-27 10:41:41] [INFO] ========================================
+[2026-02-27 10:41:41] [INFO] ✓ Archivo encontrado: C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+[2026-02-27 10:41:41] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+[2026-02-27 10:41:41] [SUCCESS] ✓ Actualizado: 10 referencias cambiadas
+[2026-02-27 10:41:41] [INFO] ✓ Archivo encontrado: C:\Proyectos\GIFER_llantas\data\productos\llantas.json
+[2026-02-27 10:41:41] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\productos\llantas.json
+[2026-02-27 10:41:41] [SUCCESS] ✓ Actualizado: 17 referencias cambiadas
+[2026-02-27 10:41:41] [INFO] ✓ Archivo encontrado: C:\Proyectos\GIFER_llantas\data\servicios\servicios.json
+[2026-02-27 10:41:41] [INFO] Procesando: C:\Proyectos\GIFER_llantas\data\servicios\servicios.json
+[2026-02-27 10:41:41] [INFO] → Sin cambios necesarios
+[2026-02-27 10:41:41] [INFO] ========================================
+[2026-02-27 10:41:41] [SUCCESS]   Total referencias actualizadas: 27
+[2026-02-27 10:41:41] [INFO] ========================================
+[2026-02-27 10:41:41] [INFO] ========================================
+[2026-02-27 10:41:41] [INFO]   Fin: 2026-02-27 10:41:41
+[2026-02-27 10:41:41] [INFO] ========================================
+
+✅ Proceso completado. Revisa el log en: C:\Proyectos\GIFER_llantas\docs\log\uniformar-imagenes.log
+PS C:\Proyectos\GIFER_llantas\scripts>

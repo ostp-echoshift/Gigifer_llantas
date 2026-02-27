@@ -1,0 +1,106 @@
+PS C:\Proyectos\GIFER_llantas> dir
+
+    Directory: C:\Proyectos\GIFER_llantas
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----      24/feb/2026 06:29 p. m.                assets
+-a---      24/feb/2026 06:59 p. m.           8116 DirMainRoot.ps1
+-a---      24/feb/2026 06:27 p. m.         170948 index_oddies.html
+-a---      24/feb/2026 06:53 p. m.          42081 index.html
+
+PS C:\Proyectos\GIFER_llantas> .\DirMainRoot.ps1
+
+  ╔══════════════════════════════════════════════╗
+  ║     GIFER LLANTAS — Estructura de Proyecto   ║
+  ╚══════════════════════════════════════════════╝
+
+  [~] Ya existe: C:\Proyectos\GIFER_llantas
+  [~] Ya existe: C:\Proyectos\GIFER_llantas\assets
+  [+] C:\Proyectos\GIFER_llantas\assets\css
+  [+] C:\Proyectos\GIFER_llantas\assets\js
+  [~] Ya existe: C:\Proyectos\GIFER_llantas\assets\img
+  [+] C:\Proyectos\GIFER_llantas\assets\img\hero
+  [~] Ya existe: C:\Proyectos\GIFER_llantas\assets\img\marcas
+  [+] C:\Proyectos\GIFER_llantas\assets\img\productos
+  [+] C:\Proyectos\GIFER_llantas\assets\img\servicios
+  [+] C:\Proyectos\GIFER_llantas\assets\img\galeria
+  [+] C:\Proyectos\GIFER_llantas\assets\img\icons
+  [+] C:\Proyectos\GIFER_llantas\assets\img\og
+  [+] C:\Proyectos\GIFER_llantas\assets\fonts
+  [+] C:\Proyectos\GIFER_llantas\assets\video
+  [+] C:\Proyectos\GIFER_llantas\pages
+  [+] C:\Proyectos\GIFER_llantas\pages\llantas
+  [+] C:\Proyectos\GIFER_llantas\pages\servicios
+  [+] C:\Proyectos\GIFER_llantas\pages\marcas
+  [+] C:\Proyectos\GIFER_llantas\pages\blog
+  [+] C:\Proyectos\GIFER_llantas\pages\contacto
+  [+] C:\Proyectos\GIFER_llantas\pages\nosotros
+  [+] C:\Proyectos\GIFER_llantas\components
+  [+] C:\Proyectos\GIFER_llantas\components\nav
+  [+] C:\Proyectos\GIFER_llantas\components\footer
+  [+] C:\Proyectos\GIFER_llantas\components\buscador
+  [+] C:\Proyectos\GIFER_llantas\components\producto-card
+  [+] C:\Proyectos\GIFER_llantas\components\hero
+  [+] C:\Proyectos\GIFER_llantas\components\modals
+  [+] C:\Proyectos\GIFER_llantas\components\whatsapp
+  [+] C:\Proyectos\GIFER_llantas\data
+  [+] C:\Proyectos\GIFER_llantas\data\productos
+  [+] C:\Proyectos\GIFER_llantas\data\marcas
+  [+] C:\Proyectos\GIFER_llantas\data\servicios
+  [+] C:\Proyectos\GIFER_llantas\docs
+  [+] C:\Proyectos\GIFER_llantas\docs\brief
+  [+] C:\Proyectos\GIFER_llantas\docs\wireframes
+  [+] C:\Proyectos\GIFER_llantas\docs\assets-pendientes
+  [+] C:\Proyectos\GIFER_llantas\_build
+  [+] C:\Proyectos\GIFER_llantas\_build\dist
+  [+] C:\Proyectos\GIFER_llantas\_build\temp
+  [+] C:\Proyectos\GIFER_llantas\scripts
+
+  Creando archivos base...
+
+  [+] C:\Proyectos\GIFER_llantas\components\nav\nav.html
+  [+] C:\Proyectos\GIFER_llantas\assets\css\pages.css
+  [+] C:\Proyectos\GIFER_llantas\data\productos\llantas.json
+  [+] C:\Proyectos\GIFER_llantas\components\buscador\buscador.html
+  [~] Ya existe: C:\Proyectos\GIFER_llantas\index.html
+  [+] C:\Proyectos\GIFER_llantas\pages\llantas\index.html
+  [+] C:\Proyectos\GIFER_llantas\assets\css\responsive.css
+  [+] C:\Proyectos\GIFER_llantas\components\footer\footer.html
+  [+] C:\Proyectos\GIFER_llantas\assets\js\buscador.js
+  [+] C:\Proyectos\GIFER_llantas\assets\css\variables.css
+  [+] C:\Proyectos\GIFER_llantas\assets\css\animations.css
+  [+] C:\Proyectos\GIFER_llantas\components\whatsapp\wa-float.html
+  [+] C:\Proyectos\GIFER_llantas\README.md
+  [+] C:\Proyectos\GIFER_llantas\assets\css\components.css
+  [+] C:\Proyectos\GIFER_llantas\docs\brief\brief-gifer.md
+  [+] C:\Proyectos\GIFER_llantas\scripts\DirMainRoot.ps1
+  [+] C:\Proyectos\GIFER_llantas\.gitignore
+  [+] C:\Proyectos\GIFER_llantas\assets\js\animations.js
+  [+] C:\Proyectos\GIFER_llantas\pages\contacto\index.html
+  [+] C:\Proyectos\GIFER_llantas\assets\js\carrito.js
+  [+] C:\Proyectos\GIFER_llantas\data\servicios\servicios.json
+  [+] C:\Proyectos\GIFER_llantas\assets\js\main.js
+  [+] C:\Proyectos\GIFER_llantas\assets\js\whatsapp.js
+  [+] C:\Proyectos\GIFER_llantas\assets\css\reset.css
+  [+] C:\Proyectos\GIFER_llantas\pages\servicios\index.html
+  [+] C:\Proyectos\GIFER_llantas\components\hero\hero.html
+  [+] C:\Proyectos\GIFER_llantas\assets\js\nav.js
+  [+] C:\Proyectos\GIFER_llantas\assets\css\main.css
+  [+] C:\Proyectos\GIFER_llantas\pages\nosotros\index.html
+  [+] C:\Proyectos\GIFER_llantas\pages\blog\index.html
+  [+] C:\Proyectos\GIFER_llantas\data\marcas\marcas.json
+  [+] C:\Proyectos\GIFER_llantas\pages\marcas\index.html
+
+  ════════════════════════════════════════════════
+  ✔  Estructura lista en: C:\Proyectos\GIFER_llantas
+
+  Carpetas creadas : 41
+  Archivos base    : 32
+
+  SIGUIENTE PASO: Abrir index.html y comenzar.
+  ════════════════════════════════════════════════
+
+[LOG REGISTRADO] : 2026-02-24
+[EJECUTADO POR]  : OSTP Fernando Guzmán
+[ESTADO]         : ESTRUCTURA CONFIRMADA — Listo para desarrollo

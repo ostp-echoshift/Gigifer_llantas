@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GIFER Llantas Guadalajara - Multimarcas con instalación GRATIS">
+  <title>GIFER Llantas | Guadalajara</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       HEADER (Estilo HogarConfort)
+       ════════════════════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-brand">
+        <img src="assets/img/icons/logo-gifer.png" alt="GIFER Llantas" class="header-logo">
+        <div class="header-tagline">
+          <h1>GIFER LLANTAS</h1>
+          <p>Desde 2010 - Tu Mejor Opción en Llantas</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="badge-header">🚚 Envío Nacional</span>
+        <span class="badge-header">✅ Garantía Total</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       STATS SECTION
+       ════════════════════════════════════════════════════════════════ -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <strong class="stat-number">10+</strong>
+          <span class="stat-label">Marcas Disponibles</span>
+        </div>
+        <div class="stat-item">
+          <strong class="stat-number">24/7</strong>
+          <span class="stat-label">Asesoría Personalizada</span>
+        </div>
+        <div class="stat-item">
+          <strong class="stat-number">100%</strong>
+          <span class="stat-label">Calidad Garantizada</span>
+        </div>
+        <div class="stat-item">
+          <strong class="stat-number">15</strong>
+          <span class="stat-label">Años de Experiencia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       NAVEGACIÓN
+       ════════════════════════════════════════════════════════════════ -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo-link">
+        <span class="nav-logo-txt">LLANTAS <em>GIFER</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#marcas" class="nav-link">Marcas</a></li>
+        <li><a href="#productos" class="nav-link">Productos</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <a href="tel:+523329062078" class="nav-tel">📞 33 2906 2078</a>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       HERO SECTION
+       ════════════════════════════════════════════════════════════════ -->
+  <section class="hero-section" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <h2 class="hero-title">Encuentra tu Llanta Perfecta</h2>
+        <p class="hero-subtitle">Multimarcas · Precios Competitivos · Instalación Gratis</p>
+        <div class="hero-actions">
+          <a href="#productos" class="btn btn--primary"><span>Ver Catálogo</span></a>
+          <a href="https://wa.me/523329062078?text=Hola%20GIFER!%20Necesito%20información" class="btn btn--ghost" target="_blank" rel="noopener"><span>💬 WhatsApp</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       MARCAS DISPONIBLES (10 marcas desde JSON)
+       ════════════════════════════════════════════════════════════════ -->
+  <section class="categoria-section" id="marcas">
+    <div class="container">
+      <div class="categoria-header">
+        <h2 class="categoria-title">Marcas Disponibles</h2>
+        <p class="categoria-sub">Trabajamos con las mejores marcas del mundo</p>
+      </div>
+      <div class="productos-grid" id="marcas-grid">
+        <div class="loading-placeholder">Cargando marcas...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       PRODUCTOS DESTACADOS (6 productos desde JSON)
+       ════════════════════════════════════════════════════════════════ -->
+  <section class="categoria-section section--dark" id="productos">
+    <div class="container">
+      <div class="categoria-header">
+        <h2 class="categoria-title">Productos Destacados</h2>
+        <p class="categoria-sub">Los más vendidos esta semana</p>
+      </div>
+      <div class="productos-grid" id="productos-grid">
+        <div class="loading-placeholder">Cargando productos...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       SERVICIOS
+       ════════════════════════════════════════════════════════════════ -->
+  <section class="categoria-section" id="servicios">
+    <div class="container">
+      <div class="categoria-header">
+        <h2 class="categoria-title">¿Por qué elegir GIFER?</h2>
+      </div>
+      <div class="servicios-grid">
+        <div class="servicio-card">
+          <div class="servicio-icon">⚙️</div>
+          <h3>Instalación Gratis</h3>
+          <p>Balanceo y válvulas incluidos en cada compra</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">🚚</div>
+          <h3>Envíos a Todo México</h3>
+          <p>Entrega rápida y segura a cualquier estado</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">✅</div>
+          <h3>Marcas Certificadas</h3>
+          <p>100% originales con garantía de fábrica</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">💬</div>
+          <h3>WhatsApp 24 HRS</h3>
+          <p>Respuesta inmediata todos los días</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       CONTACTO
+       ════════════════════════════════════════════════════════════════ -->
+  <section class="categoria-section section--dark" id="contacto">
+    <div class="container">
+      <div class="categoria-header">
+        <h2 class="categoria-title">Visítanos</h2>
+      </div>
+      <div class="contacto-grid">
+        <div class="contacto-info">
+          <p><strong>📍 Dirección:</strong> Ramos Millán #946 Col. Villaseñor, Guadalajara, Jal. C.P. 44600</p>
+          <p><strong>📞 Teléfono:</strong> <a href="tel:+523329062078">33 2906 2078</a></p>
+          <p><strong>✉️ Email:</strong> <a href="mailto:giferllantas@gmail.com">giferllantas@gmail.com</a></p>
+          <p><strong>🕐 Horario:</strong> Lun–Vie 9:00–19:00 · Sáb 9:00–14:00 · WhatsApp 24 HRS</p>
+        </div>
+        <div class="contacto-mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.5!2d-103.3!3d20.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDM2JzAwLjAiTiAxMDPCsDE4JzAwLjAiVw!5e0!3m2!1ses!2smx!4v1234567890" width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Visítanos</h3>
+          <p>📍 Ramos Millán #946 Col. Villaseñor<br>Guadalajara, Jal. C.P. 44600</p>
+          <p>📞 <a href="tel:+523329062078">33 2906 2078</a></p>
+          <p>✉️ <a href="mailto:giferllantas@gmail.com">giferllantas@gmail.com</a></p>
+        </div>
+        <div class="footer-col">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#marcas">Marcas</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Envíos y Entregas</h3>
+          <ul>
+            <li>✅ Instalación gratis en taller</li>
+            <li>🚚 Envío en 24-48 hrs hábiles</li>
+            <li>📦 Cobertura nacional</li>
+            <li>🔧 Armado profesional incluido</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Nuestra Garantía</h3>
+          <ul>
+            <li>✅ Llantas 100% originales</li>
+            <li>✅ Garantía de fábrica</li>
+            <li>✅ Precios competitivos</li>
+            <li>✅ Satisfacción garantizada</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 GIFER Llantas. Todos los derechos reservados.</p>
+        <p>Diseñado con ❤️ para tu seguridad</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       WHATSAPP FLOAT
+       ════════════════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/523329062078?text=Hola%20GIFER!%20Necesito%20información%20sobre%20llantas" 
+     class="wa-float" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+    <!-- ════════════════════════════════════════════════════════════════
+       SCRIPT — DATOS INLINE (SIN FETCH PARA file://)
+       ════════════════════════════════════════════════════════════════ -->
+  <script>
+    // ════════════════════════════════════════════════════════════════
+    // DATOS DE MARCAS — INLINE (10 marcas)
+    // ════════════════════════════════════════════════════════════════
+    const MARCAS_DATA = {
+      "marcas": [
+        { "id": "michelin", "nombre": "Michelin", "img": "assets/img/marcas/michelline.png", "tier": "premium" },
+        { "id": "bridgestone", "nombre": "Bridgestone", "img": "assets/img/marcas/bridgestone.png", "tier": "premium" },
+        { "id": "pirelli", "nombre": "Pirelli", "img": "assets/img/marcas/pirelli.png", "tier": "premium" },
+        { "id": "hankook", "nombre": "Hankook", "img": "assets/img/marcas/hankook.png", "tier": "mid" },
+        { "id": "firestone", "nombre": "Firestone", "img": "assets/img/marcas/firestone.png", "tier": "mid" },
+        { "id": "marshall", "nombre": "Marshal", "img": "assets/img/marcas/marshal.png", "tier": "valor" },
+        { "id": "cooper", "nombre": "Cooper", "img": "assets/img/marcas/coopertires.png", "tier": "mid" },
+        { "id": "roadstone", "nombre": "Roadstone", "img": "assets/img/marcas/roadstone.png", "tier": "valor" },
+        { "id": "kumho", "nombre": "Kumho", "img": "assets/img/marcas/kumhotires.png", "tier": "mid" },
+        { "id": "bf", "nombre": "BF Goodrich", "img": "assets/img/marcas/bf.png", "tier": "premium" }
+      ]
+    };
+
+    // ════════════════════════════════════════════════════════════════
+    // DATOS DE PRODUCTOS — INLINE (6 productos)
+    // ════════════════════════════════════════════════════════════════
+    const PRODUCTOS_DATA = {
+      "productos": [
+        { "id": "marshal-mh15-185-60-r14", "marca": "Marshal", "modelo": "MH15", "medida": "185/60 R14", "precio": 1209, "stock": true, "img": "assets/img/compras/pasos-de-compra1.png", "badge": "top" },
+        { "id": "hankook-kinergy-h436-205-55-r17", "marca": "Hankook", "modelo": "Kinergy H436", "medida": "205/55 R17", "precio": 1990, "stock": true, "img": "assets/img/compras/pasos-de-compra-2.png producto-imagen", "badge": "oferta" },
+        { "id": "cooper-evolution-sport-215-45-r17", "marca": "Cooper", "modelo": "Evolution Sport", "medida": "215/45 R17", "precio": 1970, "stock": true, "img": "assets/img/compras/pasos-de-compra-3.png", "badge": "nuevo" },
+        { "id": "roadstone-eurovis-hp02-185-70-r14", "marca": "Roadstone", "modelo": "Eurovis HP02", "medida": "185/70 R14", "precio": 1150, "stock": true, "img": "assets/img/compras/pasos-de-compra1.png", "badge": "top" },
+        { "id": "marshal-mh15-195-65-r15", "marca": "Marshal", "modelo": "MH15", "medida": "195/65 R15", "precio": 1270, "stock": true, "img": "assets/img/compras/pasos-de-compra-2.png", "badge": "top" },
+        { "id": "toyo-pxst3-275-45-r20", "marca": "Toyo", "modelo": "PXST3", "medida": "275/45 R20", "precio": 3342, "stock": true, "img": "assets/img/compras/pasos-de-compra-3.png", "badge": "oferta" }
+      ]
+    };
+
+    // ════════════════════════════════════════════════════════════════
+    // RENDERIZAR MARCAS (SIN FETCH)
+    // ════════════════════════════════════════════════════════════════
+    function renderMarcas() {
+      const grid = document.getElementById('marcas-grid');
+      if (!grid) return;
+      
+      grid.innerHTML = MARCAS_DATA.marcas.map(m => `
+        <div class="producto-card reveal">
+          <div class="producto-imagen">
+            <img src="${m.img}" alt="${m.nombre}" loading="lazy" 
+                 onerror="this.style.display='none'; this.parentElement.innerHTML='<span class=\\'marca-fallback\\'>${m.nombre.substring(0,2).toUpperCase()}</span>'">
+          </div>
+          <div class="producto-info">
+            <span class="producto-marca">${m.nombre}</span>
+            <p class="producto-stock disponible">${m.tier.toUpperCase()}</p>
+            <a href="https://wa.me/523329062078?text=Hola%20GIFER!%20Me%20interesa%20${encodeURIComponent(m.nombre)}" 
+               class="btn btn--wa" target="_blank" rel="noopener">📱 Cotizar</a>
+          </div>
+        </div>
+      `).join('');
+      
+      console.log('✅ ' + MARCAS_DATA.marcas.length + ' marcas renderizadas');
+    }
+
+    // ════════════════════════════════════════════════════════════════
+    // RENDERIZAR PRODUCTOS (SIN FETCH)
+    // ════════════════════════════════════════════════════════════════
+    function renderProductos() {
+      const grid = document.getElementById('productos-grid');
+      if (!grid) return;
+      
+      grid.innerHTML = PRODUCTOS_DATA.productos.map(p => `
+        <div class="producto-card reveal">
+          <div class="producto-imagen">
+            <img src="${p.img}" alt="${p.marca} ${p.modelo}" loading="lazy"
+                 onerror="this.style.display='none'">
+            ${p.badge ? '<span class="producto-etiqueta">' + p.badge.toUpperCase() + '</span>' : ''}
+          </div>
+          <div class="producto-info">
+            <span class="producto-marca">${p.marca}</span>
+            <h3 class="producto-modelo">${p.modelo}</h3>
+            <p class="producto-medida">${p.medida}</p>
+            <p class="producto-precio">$${p.precio.toLocaleString('es-MX')}</p>
+            <p class="producto-stock ${p.stock ? 'disponible' : 'agotado'}">${p.stock ? '✅ En stock' : '❌ Agotado'}</p>
+            <a href="https://wa.me/523329062078?text=Hola%20GIFER!%20Me%20interesa%20${encodeURIComponent(p.marca + ' ' + p.modelo)}" 
+               class="btn btn--wa" target="_blank" rel="noopener">📱 Cotizar</a>
+          </div>
+        </div>
+      `).join('');
+      
+      console.log('✅ ' + PRODUCTOS_DATA.productos.length + ' productos renderizados');
+    }
+
+    // ════════════════════════════════════════════════════════════════
+    // SMOOTH SCROLL PARA NAVEGACIÓN
+    // ════════════════════════════════════════════════════════════════
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // ════════════════════════════════════════════════════════════════
+    // INICIALIZAR CUANDO EL DOM ESTÉ LISTO
+    // ════════════════════════════════════════════════════════════════
+    document.addEventListener('DOMContentLoaded', () => {
+      renderMarcas();
+      renderProductos();
+      console.log('✅ GIFER Llantas inicializado — ' + new Date().toLocaleString());
+    });
+  </script>
+</body>
+</html>

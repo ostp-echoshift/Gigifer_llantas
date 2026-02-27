@@ -1,0 +1,9 @@
+{
+  "servicios": [
+    { "id": "instalacion", "nombre": "Instalación de Llantas", "descripcion": "Montaje y desmontaje profesional incluido en cada compra", "icon": "⚙️", "gratis": true },
+    { "id": "balanceo", "nombre": "Balanceo", "descripcion": "Balanceo computarizado para mayor durabilidad y confort", "icon": "⚖️", "gratis": true },
+    { "id": "valvula", "nombre": "Válvulas", "descripcion": "Cambio de válvulas incluido en cada llanta instalada", "icon": "🔩", "gratis": true },
+    { "id": "alineacion", "nombre": "Alineación", "descripcion": "Alineación computarizada para el mejor rendimiento", "icon": "🎯", "gratis": false },
+    { "id": "envio", "nombre": "Envío a Todo México", "descripcion": "Enviamos a cualquier estado de la república", "icon": "🚚", "gratis": false }
+  ]
+}

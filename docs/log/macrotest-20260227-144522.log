@@ -1,0 +1,121 @@
+[14:45:22] MacroTest iniciado — C:\Proyectos\GIFER_llantas
+[14:45:22] Fecha: 2026-02-27 14:45:22
+[14:45:22] 
+[14:45:22] === 1 · ESTRUCTURA DE CARPETAS ===
+[14:45:22] [OK]  assets\css
+[14:45:22] [OK]  assets\js
+[14:45:22] [OK]  assets\img\marcas
+[14:45:22] [OK]  assets\img\taller
+[14:45:22] [OK]  assets\img\compras
+[14:45:22] [ERR] Carpeta faltante: assets\logo
+[14:45:22] [ERR] Carpeta faltante: components\nav
+[14:45:22] [ERR] Carpeta faltante: components\hero
+[14:45:22] [ERR] Carpeta faltante: components\buscador
+[14:45:22] [ERR] Carpeta faltante: components\footer
+[14:45:22] [ERR] Carpeta faltante: components\whatsapp
+[14:45:22] [OK]  data\productos
+[14:45:22] [OK]  data\marcas
+[14:45:22] [OK]  data\servicios
+[14:45:22] [OK]  pages\llantas
+[14:45:22] [OK]  pages\marcas
+[14:45:22] [OK]  pages\servicios
+[14:45:22] [OK]  pages\nosotros
+[14:45:22] [OK]  pages\contacto
+[14:45:22] [OK]  pages\blog
+[14:45:22] [OK]  docs\brief
+[14:45:22] [OK]  docs\log
+[14:45:22] 
+[14:45:23] === 2 · ARCHIVOS CLAVE ===
+[14:45:23] [OK]  index.html (5750 bytes)
+[14:45:23] [ERR] Archivo faltante: preview.html
+[14:45:23] [OK]  README.md (6996 bytes)
+[14:45:23] [OK]  .gitignore (1896 bytes)
+[14:45:23] [OK]  assets\css\variables.css (1967 bytes)
+[14:45:23] [OK]  assets\css\reset.css (4287 bytes)
+[14:45:23] [OK]  assets\css\main.css (9160 bytes)
+[14:45:23] [OK]  assets\css\components.css (11321 bytes)
+[14:45:23] [OK]  assets\css\animations.css (3505 bytes)
+[14:45:23] [OK]  assets\css\pages.css (36498 bytes)
+[14:45:23] [OK]  assets\css\responsive.css (1681 bytes)
+[14:45:23] [OK]  assets\js\main.js (4238 bytes)
+[14:45:23] [OK]  assets\js\buscador.js (2925 bytes)
+[14:45:23] [OK]  assets\js\carrito.js (1828 bytes)
+[14:45:23] [OK]  assets\js\nav.js (870 bytes)
+[14:45:23] [OK]  assets\js\whatsapp.js (1323 bytes)
+[14:45:23] [OK]  assets\js\animations.js (1346 bytes)
+[14:45:23] [ERR] Archivo faltante: components\nav\nav.html
+[14:45:23] [ERR] Archivo faltante: components\hero\hero.html
+[14:45:23] [ERR] Archivo faltante: components\buscador\buscador.html
+[14:45:23] [ERR] Archivo faltante: components\footer\footer.html
+[14:45:23] [ERR] Archivo faltante: components\whatsapp\wa-float.html
+[14:45:23] [OK]  data\productos\llantas.json (1923 bytes)
+[14:45:23] [OK]  data\marcas\marcas.json (1068 bytes)
+[14:45:23] [OK]  data\servicios\servicios.json (816 bytes)
+[14:45:23] [OK]  pages\llantas\index.html (4414 bytes)
+[14:45:23] [OK]  pages\marcas\index.html (6885 bytes)
+[14:45:23] [OK]  pages\servicios\index.html (6736 bytes)
+[14:45:23] [OK]  pages\nosotros\index.html (7652 bytes)
+[14:45:23] [OK]  pages\contacto\index.html (7480 bytes)
+[14:45:23] [OK]  pages\blog\index.html (8498 bytes)
+[14:45:23] [ERR] Archivo faltante: DirMainRoot.ps1
+[14:45:23] [ERR] Archivo faltante: ConvertToWebP.ps1
+[14:45:23] 
+[14:45:23] === 3 · VALIDACIÓN JSON ===
+[14:45:23] [OK]  JSON válido: data\productos\llantas.json
+[14:45:23] [WRN]   → llantas.json sin productos
+[14:45:23] [OK]    → Todos los campos requeridos presentes
+[14:45:23] [OK]    → Todos los precios son válidos
+[14:45:23] [OK]  JSON válido: data\marcas\marcas.json
+[14:45:23] [OK]    → 10 marcas en marcas.json
+[14:45:23] [OK]  JSON válido: data\servicios\servicios.json
+[14:45:23] [OK]    → 5 servicios en servicios.json
+[14:45:23] 
+[14:45:23] === 4 · IMÁGENES WebP ===
+[14:45:23] [ERR] WebP faltante: assets\img\marcas\michelin.webp
+[14:45:23] [ERR] WebP faltante: assets\img\marcas\bridgestone.webp
+[14:45:23] [ERR] WebP faltante: assets\img\marcas\pirelli.webp
+[14:45:23] [ERR] WebP faltante: assets\img\marcas\hankook.webp
+[14:45:23] [ERR] WebP faltante: assets\img\marcas\firestone.webp
+[14:45:24] [ERR] WebP faltante: assets\img\marcas\marshall.webp
+[14:45:24] [ERR] WebP faltante: assets\img\marcas\coopertires.webp
+[14:45:24] [ERR] WebP faltante: assets\img\marcas\roadstone.webp
+[14:45:24] [ERR] WebP faltante: assets\img\marcas\kumo.webp
+[14:45:24] [ERR] WebP faltante: assets\img\marcas\bf.webp
+[14:45:24] [OK]  assets\img\taller\fig01.webp
+[14:45:24] [OK]  assets\img\taller\fig02.webp
+[14:45:24] [OK]  assets\img\taller\fig03.webp
+[14:45:24] [OK]  assets\img\taller\fig04.webp
+[14:45:24] [OK]  assets\img\taller\fig05.webp
+[14:45:24] [ERR] Imagen faltante: assets\img\compras\pasos-de-compra1.webp
+[14:45:24] [ERR] Imagen faltante: assets\img\compras\pasos-de-compra-2.webp
+[14:45:24] [ERR] Imagen faltante: assets\img\compras\pasos-de-compra-3.webp
+[14:45:24] [ERR] Logo faltante: assets\logo\logo-gifer.png
+[14:45:24] 
+[14:45:24] === 5 · RUTAS EN HTML ===
+[14:45:24] [OK]  index_oddies.html — rutas OK
+[14:45:24] [OK]  index.html — rutas OK
+[14:45:24] [OK]  components\buscador.html — rutas OK
+[14:45:24] [WRN] Ruta rota en components\footer.html → assets/img/icons/logo-gifer.png
+[14:45:24] [OK]  components\hero.html — rutas OK
+[14:45:24] [WRN] Ruta rota en components\nav.html → assets/img/icons/logo-gifer.png
+[14:45:24] [OK]  components\wa-float.html — rutas OK
+[14:45:24] [OK]  pages\blog\index.html — rutas OK
+[14:45:24] [OK]  pages\contacto\index.html — rutas OK
+[14:45:24] [OK]  pages\llantas\index.html — rutas OK
+[14:45:24] [OK]  pages\marcas\index.html — rutas OK
+[14:45:24] [WRN] Ruta rota en pages\nosotros\index.html → ../../assets/img/taller/fig01.jpg
+[14:45:24] [WRN] Ruta rota en pages\nosotros\index.html → ../../assets/img/taller/fig02.jpg
+[14:45:24] [WRN] Ruta rota en pages\nosotros\index.html → ../../assets/img/taller/fig03.jpg
+[14:45:24] [WRN] Ruta rota en pages\nosotros\index.html → ../../assets/img/taller/fig04.jpg
+[14:45:24] [WRN] Ruta rota en pages\nosotros\index.html → ../../assets/img/taller/fig05.jpg
+[14:45:24] [WRN] Ruta rota en pages\servicios\index.html → /assets/img/compras/pasos-de-compra1.webp
+[14:45:24] [WRN] Ruta rota en pages\servicios\index.html → /assets/img/compras/pasos-de-compra-2.webp
+[14:45:24] [WRN] Ruta rota en pages\servicios\index.html → /assets/img/compras/pasos-de-compra-3.webp
+[14:45:24] 
+[14:45:24] === 6 · NÚMERO WHATSAPP ===
+[14:45:24] [ERR] wa.me sin número correcto en assets\js\carrito.js
+[14:45:25] [OK]  Número WA verificado: 523329062078
+[14:45:25] 
+[14:45:25] === RESUMEN ===
+[14:45:25] OK: 63 | Warnings: 11 | Errores: 29
+[14:45:25] MacroTest finalizado — 2026-02-27 14:45:25

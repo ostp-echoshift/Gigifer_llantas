@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcas | GIFER Llantas Guadalajara</title>
+  <meta name="description" content="Michelin, Bridgestone, Pirelli, Hankook, Firestone, Marshal, Cooper, Roadstone, Kumho, BF Goodrich. Todas las marcas en GIFER Llantas Guadalajara.">
+  
+  <!-- Favicon (ruta corregida) -->
+  <link rel="icon" type="image/x-icon" href="../../assets/img/icons/favicon.ico">
+  
+  <!-- Stylesheets (rutas relativas desde /pages/) -->
+  <link rel="stylesheet" href="../../assets/css/variables.css">
+  <link rel="stylesheet" href="../../assets/css/reset.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="../../assets/css/components.css">
+  <link rel="stylesheet" href="../../assets/css/pages.css">
+  <link rel="stylesheet" href="../../assets/css/responsive.css">
+  
+  <!-- Google Fonts (URL corregida sin espacios) -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cursor Personalizado -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>📍 Ramos Millán #946, Guadalajara</span>
+      <span>📞 <a href="tel:+523329062078">33 2906 2078</a></span>
+      <span class="topbar-highlight">⚡ Instalación GRATIS</span>
+      <span>🚚 Envíos a todo México</span>
+    </div>
+  </div>
+
+  <!-- Componentes dinámicos -->
+  <div id="nav-container"></div>
+
+  <!-- Header de página -->
+  <section class="page-header section section--dark">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Navegación">
+        <a href="../../index.html">Inicio</a>
+        <span aria-hidden="true">›</span>
+        <span>Marcas</span>
+      </nav>
+      <h1 class="section-title">Nuestras <span class="text-yellow">Marcas</span></h1>
+      <p class="section-sub">Trabajamos con las mejores marcas del mundo</p>
+    </div>
+  </section>
+
+  <!-- TIER PREMIUM -->
+  <section class="section">
+    <div class="container">
+      <div class="marcas-tier-header">
+        <span class="tier-badge badge--yellow">💎 Premium</span>
+        <h2 class="section-title" style="margin:0;font-size:var(--font-size-lg)">Marcas Premium</h2>
+      </div>
+      <div class="marcas-grid grid-5" id="grid-premium">
+        <!-- Carga dinámica desde marcas.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- TIER MID -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="marcas-tier-header">
+        <span class="tier-badge badge--yellow">⭐ Recomendadas</span>
+        <h2 class="section-title" style="margin:0;font-size:var(--font-size-lg)">Marcas Recomendadas</h2>
+      </div>
+      <div class="marcas-grid grid-5" id="grid-mid">
+        <!-- Carga dinámica desde marcas.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- TIER VALOR -->
+  <section class="section">
+    <div class="container">
+      <div class="marcas-tier-header">
+        <span class="tier-badge badge--yellow">💰 Mejor Precio</span>
+        <h2 class="section-title" style="margin:0;font-size:var(--font-size-lg)">Mejor Precio / Calidad</h2>
+      </div>
+      <div class="marcas-grid grid-5" id="grid-valor">
+        <!-- Carga dinámica desde marcas.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Componentes footer -->
+  <div id="footer-container"></div>
+  <div id="whatsapp-container"></div>
+
+  <!-- JavaScript (rutas relativas) -->
+  <script src="../../assets/js/main.js"></script>
+  <script src="../../assets/js/nav.js"></script>
+  <script src="../../assets/js/whatsapp.js"></script>
+  <script src="../../assets/js/animations.js"></script>
+  
+  <!-- Script específico para marcas -->
+  <script>
+    // Función para cargar componentes
+    async function loadComponent(id, path) {
+      try {
+        const r = await fetch(path);
+        document.getElementById(id).innerHTML = await r.text();
+      } catch(e) {
+        console.error(`Error cargando ${path}`, e);
+      }
+    }
+
+    // Construir tarjeta de marca
+    function buildMarcaCard(m) {
+      const wa = encodeURIComponent(`Hola GIFER! Me interesa ver las llantas de la marca ${m.nombre}. ¿Qué modelos tienen?`);
+      return `
+      <div class="marca-card reveal">
+        <div class="marca-card-img">
+          <img src="${m.img}" alt="${m.nombre}" loading="lazy"
+               onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-card-fallback">${m.nombre.substring(0,2).toUpperCase()}</span>
+        </div>
+        <div class="marca-card-body">
+          <h3 class="marca-card-nombre">${m.nombre}</h3>
+          <span class="marca-card-tier">${m.tier}</span>
+          <div class="marca-card-actions">
+            <a href="../llantas/index.html?marca=${m.id}" class="btn btn--ghost btn-sm">
+              Ver llantas <span class="arrow">→</span>
+            </a>
+            <a href="https://wa.me/523329062078?text=${wa}" 
+               class="btn btn--wa btn-sm" 
+               target="_blank" 
+               rel="noopener"
+               aria-label="Consultar ${m.nombre} por WhatsApp">
+              💬
+            </a>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    // Inicialización
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Cargar componentes
+      await Promise.all([
+        loadComponent('nav-container', '../../components/nav/nav.html'),
+        loadComponent('footer-container', '../../components/footer/footer.html'),
+        loadComponent('whatsapp-container', '../../components/wa-float.html'),
+      ]);
+
+      // Cargar marcas desde JSON
+      try {
+        const res  = await fetch('../../data/marcas/marcas.json');
+        const data = await res.json();
+
+        const premium = data.marcas.filter(m => m.tier === 'premium');
+        const mid     = data.marcas.filter(m => m.tier === 'mid');
+        const valor   = data.marcas.filter(m => m.tier === 'valor');
+
+        document.getElementById('grid-premium').innerHTML = premium.map(buildMarcaCard).join('');
+        document.getElementById('grid-mid').innerHTML     = mid.map(buildMarcaCard).join('');
+        document.getElementById('grid-valor').innerHTML   = valor.map(buildMarcaCard).join('');
+        
+        console.log('✅ Marcas page initialized');
+      } catch(e) { 
+        console.error('❌ Error cargando marcas.json', e); 
+      }
+    });
+  </script>
+</body>
+</html>
