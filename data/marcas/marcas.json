@@ -1,14 +1,84 @@
 {
   "marcas": [
-    { "id": "michelin", "nombre": "Michelin", "img": "assets/img/marcas/michelline.png", "tier": "premium" },
-    { "id": "bridgestone", "nombre": "Bridgestone", "img": "assets/img/marcas/bridgestone.png", "tier": "premium" },
-    { "id": "pirelli", "nombre": "Pirelli", "img": "assets/img/marcas/pirelli.png", "tier": "premium" },
-    { "id": "hankook", "nombre": "Hankook", "img": "assets/img/marcas/hankook.png", "tier": "mid" },
-    { "id": "firestone", "nombre": "Firestone", "img": "assets/img/marcas/firestone.png", "tier": "mid" },
-    { "id": "marshall", "nombre": "Marshal", "img": "assets/img/marcas/marshal.png", "tier": "valor" },
-    { "id": "cooper", "nombre": "Cooper", "img": "assets/img/marcas/coopertires.png", "tier": "mid" },
-    { "id": "roadstone", "nombre": "Roadstone", "img": "assets/img/marcas/roadstone.png", "tier": "valor" },
-    { "id": "kumho", "nombre": "Kumho", "img": "assets/img/marcas/kumhotires.png", "tier": "mid" },
-    { "id": "bf", "nombre": "BF Goodrich", "img": "assets/img/marcas/bf.png", "tier": "premium" }
+    {
+      "id": "bf",
+      "nombre": "BF Goodrich",
+      "img": "assets/img/marcas/bf.png",
+      "tier": "premium",
+      "stock": true,
+      "descripcion": "Llantas de alto rendimiento para todo terreno"
+    },
+    {
+      "id": "bridgestone",
+      "nombre": "Bridgestone",
+      "img": "assets/img/marcas/bridgestone.png",
+      "tier": "premium",
+      "stock": true,
+      "descripcion": "Tecnología japonesa de primera calidad"
+    },
+    {
+      "id": "coopertires",
+      "nombre": "Cooper Tires",
+      "img": "assets/img/marcas/coopertires.png",
+      "tier": "premium",
+      "stock": true,
+      "descripcion": "Durabilidad y rendimiento americano"
+    },
+    {
+      "id": "firestone",
+      "nombre": "Firestone",
+      "img": "assets/img/marcas/firestone.png",
+      "tier": "standard",
+      "stock": true,
+      "descripcion": "Tradición y confianza desde 1900"
+    },
+    {
+      "id": "hankook",
+      "nombre": "Hankook",
+      "img": "assets/img/marcas/hankook.png",
+      "tier": "premium",
+      "stock": true,
+      "descripcion": "Innovación coreana para todas las temporadas"
+    },
+    {
+      "id": "kumhotires",
+      "nombre": "Kumho Tires",
+      "img": "assets/img/marcas/kumhotires.png",
+      "tier": "standard",
+      "stock": true,
+      "descripcion": "Excelente relación calidad-precio"
+    },
+    {
+      "id": "marshal",
+      "nombre": "Marshal",
+      "img": "assets/img/marcas/marshal.png",
+      "tier": "economy",
+      "stock": true,
+      "descripcion": "Llantas económicas con garantía"
+    },
+    {
+      "id": "michelline",
+      "nombre": "Michelin",
+      "img": "assets/img/marcas/michelline.png",
+      "tier": "premium",
+      "stock": true,
+      "descripcion": "Líder mundial en innovación"
+    },
+    {
+      "id": "pirelli",
+      "nombre": "Pirelli",
+      "img": "assets/img/marcas/pirelli.png",
+      "tier": "premium",
+      "stock": true,
+      "descripcion": "Alto rendimiento italiano"
+    },
+    {
+      "id": "roadstone",
+      "nombre": "Roadstone",
+      "img": "assets/img/marcas/roadstone.png",
+      "tier": "economy",
+      "stock": true,
+      "descripcion": "Calidad coreana a precio accesible"
+    }
   ]
 }
